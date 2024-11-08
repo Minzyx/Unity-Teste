@@ -532,6 +532,8 @@ GameObject:
   - component: {fileID: 1108019550}
   - component: {fileID: 1108019549}
   - component: {fileID: 1108019553}
+  - component: {fileID: 1108019554}
+  - component: {fileID: 1108019555}
   m_Layer: 0
   m_Name: elf_f_hit_anim_f0
   m_TagString: Untagged
@@ -679,12 +681,41 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108019548}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9fca5f7b79f9984da2aaaa67b558f9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   vidaHeroi: 10
+--- !u!114 &1108019554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108019548}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9841b8c9410160e40a15f99cfb72dd80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dias: 0
+  horas: 0
+  segundos: 0
+--- !u!114 &1108019555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108019548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0b54e68f5ded4cbcf147c77ddc719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placarTimeA: 0
+  placarTimeB: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
