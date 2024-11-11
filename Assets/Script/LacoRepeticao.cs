@@ -12,8 +12,8 @@ public class LacoRepeticao : MonoBehaviour
 
     //Array -> É uma lista 
 
-    int x = 0; //While
-    int y = 10; //DoWhile 
+    //int x = 0; //While
+    //int y = 10; //DoWhile 
 
 
 
@@ -82,26 +82,26 @@ public class LacoRepeticao : MonoBehaviour
         //------------------------------------------------------
 
 
-        List<int> nums = new List<int>();  
+        //List<int> nums = new List<int>();  
 
-        nums.Add(1); //indice 0
-        nums.Add(2);
-        nums.Add(3);
-        nums.Add(4);
-        nums.Add(5);
-        nums.Add(6);
-        nums.Add(7);
-        nums.Add(8); //indice 7
+        //nums.Add(1); //indice 0
+        //nums.Add(2);
+        //nums.Add(3);
+        //nums.Add(4);
+        //nums.Add(5);
+        //nums.Add(6);
+        //nums.Add(7);
+        //nums.Add(8); //indice 7
 
-        //Remove o primeiro valor '4' encontrado na lista
-        nums.Remove(4);
+        ////Remove o primeiro valor '4' encontrado na lista
+        //nums.Remove(4);
 
-        //Ordena os elementos da lista em ordem crescente
-        nums.Sort();
+        ////Ordena os elementos da lista em ordem crescente
+        //nums.Sort();
 
-        nums.Reverse();
+        //nums.Reverse();
 
-        nums.IndexOf(1);
+        //nums.IndexOf(1);
     }
 
 

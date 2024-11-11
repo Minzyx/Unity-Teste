@@ -745,6 +745,7 @@ GameObject:
   - component: {fileID: 1186715837}
   - component: {fileID: 1186715839}
   - component: {fileID: 1186715840}
+  - component: {fileID: 1186715841}
   m_Layer: 0
   m_Name: idle_0
   m_TagString: Untagged
@@ -885,6 +886,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.015687943, y: 0}
   m_Radius: 0.6127949
+--- !u!114 &1186715841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186715836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7c018a10695e234d9e7fc9b8ce80f02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 5
 --- !u!1 &1209932429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,7 +1356,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
