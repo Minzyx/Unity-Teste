@@ -8,7 +8,7 @@ public class Ex5 : MonoBehaviour
     [SerializeField] int dificuldade;
     void Start()
     {
-        for (int i = 0; i <= 6; i++)
+        for (int i = 0; i < 6; i++)
         {
             print("Dificuldade do nível: " + dificuldade);
             dificuldade += 5;
